@@ -1,60 +1,52 @@
-#tial {
-        text-align: center;
-        text-decoration: solid;
-        color: purple;
-        
+
+.bank-name{
+    color: darkviolet;
+    text-align: center;
+    padding: 1%;
+    margin: 0%;
 }
-.boxer {
-    box-sizing: border-box;
-    padding: 0px;
-    border: 5px black solid;
-    border-radius: 10px;
+table{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    margin-bottom:  1%;
+}
+th{
+   font-size: 30px;
+    background-color: cadetblue;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+td{
+    text-align: center;
+    font-size: 25px;
+}
+
+.hove:hover{
+    background-color: darkgrey;
+}
+.butt-submit{
+    background-color: darkviolet;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
     
 }
-.head_1, .head_2, .head_3 {
-    color: black;
-    margin-right: 0px;
-    margin-top: 0px;
-    border: 5px black solid;
-    float: right;   
-    background-color:blueviolet;
+.butt-submit:hover{
+    border: 2px solid darkviolet;
+    color: darkviolet;
     border-radius: 5px;
-    overflow: auto;
+    background-color: white;
+  
 }
-.card_1 ,.card_2 ,.card_3 {
-    float: left;
-    background-color: aqua;
-    border-radius: 10px;
-   
+div{
+    padding: 1%;
+    text-align: center;
 }
-
-   /* Desktop view*/
-@media screen and (min-width:992px){
- .card_1, .card_2, .card_3{
-    width: 33%;
-    margin: 0.16%;
-    }
-
+.drop-expand{
+    width: 98%;
+    font-size: 23px;
 }
-
-   /* Tablet view*/
-@media screen and (min-width:768px) and (max-width:991px){
-    .card_1, .card_2{
-       width: 49%;
-       margin: 0.5%;
-       }
-       .card_3{
-        width: 99%;
-        margin: 5px;
-       }
-   
-   }
-   /* mobile view*/
-   @media screen and (max-width:767px){
-    .card_1 ,.card_2 ,.card_3{
-       width: 99%;
-       margin: 0.5%;
-       }
-   
-   }
-      
